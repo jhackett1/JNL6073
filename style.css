@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+::selection {
+  background-color: #d83a53;
+  opacity: 0.4;
+  color: #fafafa; }
+
+body {
+  background-color: #fafafa; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Montserrat";
+  color: #2d2d2d;
+  padding: 0px 20px; }
+
+h2 {
+  font-size: 1.3em; }
+
+ol {
+  font-family: "Hind";
+  color: #2d2d2d;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  max-width: 700px;
+  margin: 0px auto 30px auto;
+  padding: 10px; }
+
+a {
+  color: #d83a53;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+p {
+  font-family: "Hind";
+  color: #2d2d2d;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  max-width: 700px;
+  margin: 0px auto 30px auto; }
+  p a {
+    color: #d83a53;
+    text-decoration: none; }
+  p a:hover {
+    text-decoration: underline; }
+
+section.content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px; }
+  section.content p:first-of-type:first-letter {
+    float: left;
+    color: #d83a53;
+    font-size: 4.2em;
+    line-height: 80px;
+    padding-right: 13px; }
+
+header {
+  max-width: 100%;
+  width: 100%;
+  height: 250px;
+  background-color: #d83a53;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: -moz-linear-gradient(top, rgba(216, 58, 83, 0.7) 0%, rgba(216, 58, 83, 0.9) 100%);
+  background: -webkit-linear-gradient(top, rgba(216, 58, 83, 0.7) 0%, rgba(216, 58, 83, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(216, 58, 83, 0.7) 0%, rgba(216, 58, 83, 0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd83a53', endColorstr='#d83a53',GradientType=0 );
+  text-align: center; }
+
+h5 {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #efefef;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1em; }
+
+figure {
+  margin-bottom: 30px;
+  font-family: "Hind"; }
+  figure img {
+    width: 100%; }
+
+h3 {
+  text-transform: uppercase;
+  max-width: 700px;
+  margin: 10px auto 20px auto;
+  color: #d83a53;
+  text-align: center; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 30px; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+iframe.twitter-tweet {
+  text-align: center;
+  margin: 0px auto 40px auto !important; }
+
+/*# sourceMappingURL=style.css.map */
